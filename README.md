@@ -1,6 +1,8 @@
 NBA GM Performance Grading Project
 ==================================
 
+A full project memo can be found [HERE](https://docs.google.com/document/d/1Obkl-_2tqnhVXmnmAHXaHeDJyw-jXJzJ/edit?usp=sharing&ouid=117233643725020281980&rtpof=true&sd=true).
+
 This project provides a robust grading of NBA GMs' performance from 2022-2024. This time frame is because many GMs were not with their current team before then. The analysis includes grades broken out by three categories: signings, trades, and draft picks. These scores are then combined to create a holistic GM performance score. This project examples of data scraping with Beautiful Soup, data cleaning, linear regressions with Scikit-Learn, as well as a model for expected win shares by draft slot.
 
 Summary
