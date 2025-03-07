@@ -3,60 +3,68 @@ NBA GM Performance Grading Project
 
 A full project memo can be found [HERE](https://docs.google.com/document/d/1Obkl-_2tqnhVXmnmAHXaHeDJyw-jXJzJ/edit?usp=sharing&ouid=117233643725020281980&rtpof=true&sd=true).
 
-This project provides a robust grading of NBA GMs' performance from 2022-2024. This time frame is because many GMs were not with their current team before then. The analysis includes grades broken out by three categories: signings, trades, and draft picks. These scores are then combined to create a holistic GM performance score. This project examples of data scraping with Beautiful Soup, data cleaning, linear regressions with Scikit-Learn, as well as a model for expected win shares by draft slot.
+This project evaluates NBA GM performance from 2022 to 2024, focusing on signings, trades, and draft picks. The timeframe is limited to ensure relevance, as many GMs were not with their current teams before 2022. Each category is graded individually, with scores combined into a holistic GM performance rating.
 
-Summary
--------
+The analysis demonstrates key technical skills, including data scraping with Beautiful Soup, data cleaning, linear regression modeling with Scikit-Learn, and expected win share projections by draft slot.
 
-This project is broken down into five parts, in which you can find the code for in this repository. The data for this project is a mix of scraping from Basketball Reference for win share data as well as manually creating a transaction data set.
+### Project Structure
 
--   Data Scraping Scripts
+This repository includes five main components:
 
--   GM Signings Analysis
+-   Data Scraping Scripts -- Scrapes win share data from Basketball Reference and compiles transaction datasets.
 
--   GM Trades Analysis
+-   GM Signings Analysis -- Evaluates cost per win share for free-agent acquisitions.
 
--   GM Draft Pick Analysis
+-   GM Trades Analysis -- Assesses trade efficiency using a cost-per-win-share ratio.
 
--   Holistic GM Performance Grading
+-   GM Draft Pick Analysis -- Models expected win shares by draft slot to measure drafting success.
 
-Below are screenshots of the charts visualizing performance of GMs by each category.
+-   Holistic GM Performance Grading -- Combines all three categories into a single performance metric.
 
-Signings
---------
+### Methodology & Key Insights
 
-For this section, we found the players that signed on new teams between 2022-2024, their contracts, and the win shares they delivered in the year following the acquisition. These were used to determine cost per win shares of each transaction and then aggregated by GM.
+#### Signings
+
+This section analyzes free-agent signings from 2022-2024, calculating cost per win share based on player contracts and subsequent performance. GM performance is then aggregated based on these values.
 
 ![Image](https://github.com/user-attachments/assets/1c05f269-1e5e-4769-909d-04497a634ecd)
 
-Trades
-------
+#### Trades
 
-In this section, we built off of the idea of a cost per win share. we divided the cost of win share of players departing in a trade divided by the cost of win share of players acquired in trades. This provided a ratio in which higher values are better for GMs.
+This section calculates the ratio of incoming vs. outgoing win shares value in trades. A higher ratio indicates more efficient transactions by the GM.
 
 ![Image](https://github.com/user-attachments/assets/581421ee-178d-44a7-b246-57ce4b956420)
 
-Draft Picks
------------
+#### Draft Picks
 
-In this section, we performed a mini project within it by analyzing the win shares produced by every draft pick going back to 2012 for their first three seasons. We then ran a linear regression to smoothen out a curve for expected win shares for each draft slot for their first 1, 2, and 3 years. These values were then used to evaluate the draft picks in the 2022-2024 dataset. 2024 rookies were compared to expected win shares in year 1, 2023 rookies were compared to expected average win shares over their first two years, and 2022 rookies were compared to expected average win shares over their first three years. The main metric of evaluation was the percent change of actual win shares versus expected win shares for each GM in this time frame.
+To assess drafting success, we analyzed win shares for all draft picks since 2012 over their first three seasons. A linear regression model was used to estimate expected win shares per draft slot, which served as a benchmark for evaluating GMs' selections from 2022-2024.
+
+-   2024 rookies: Compared to expected win shares for Year 1.
+
+-   2023 rookies: Compared to expected two-year sum of win shares.
+
+-   2022 rookies: Compared to expected three-year sum of win shares.
+
+The primary metric is the percent change between actual and expected win shares, measuring how well GMs outperformed or underperformed draft expectations.
 
 ![Image](https://github.com/user-attachments/assets/f3619294-dd57-4a14-8086-336e8e4b52cb)
 
-Holistic GM Performance
------------------------
+#### Holistic GM Performance
 
-For the holistic performance, we calculated z scores for each of the three categories then summed up the z scores to create one holistic score. It looks like the overall best GM from this period was Sam Presti of the OKC Thunder.
+Final grades are determined by standardizing results using z-scores across all three categories. These are then summed to produce an overall GM performance ranking.
+
+Notably, Sam Presti (OKC Thunder) ranked as the top-performing GM during this period.
 
 ![Image](https://github.com/user-attachments/assets/9aa26942-779e-4edc-b479-b3f1b937d5b5)
+
 ![Image](https://github.com/user-attachments/assets/32b26cb7-26a2-4352-adc0-5b133d7d4dfb)
 
-Hope you enjoyed reading through this project!
+* * * * *
 
-Feel free to contact me with any questions or inquiries.
+### Contact & Additional Work
 
-LinkedIn - <https://www.linkedin.com/in/kevinkietle/>
+For questions or further discussion, feel free to reach out:
 
-Email - <kevinkietle@gmail.com>
-
-My portfolio of data analysis projects  can be found at: <https://kevinkietle.github.io/Bootstrap-Website-Portfolio/>
+![📩](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLJJ8672q8J1oM_8IQ39zVA-TDsMr1Udjua1J_Rw0hRMLHYh6K4vbd2VrbkH-a8Ptz1bWsJIv1aAm_tMFtJWUannauAB5VSgKbJ31mx6o5HhYrRDp2yKyH7jP4jK2USapsEA5RTw?key=WPuBJTkq44Y4mBjkSZAcUQ)  Email: kevinkietle@gmail.com\
+![🔗](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_f6w_fHVuZhslvce_gFtqig19xQQ4g4Vqw78_VUUUdVm-vHJHWw1yoegTaFF8d508CEIsFTaOtNH_F3SkX-uWD2z2m_YtgPlkgCEwlcwbgEaJfTY8rmINnUBy_b2iIEeT-43Hvg?key=WPuBJTkq44Y4mBjkSZAcUQ)  LinkedIn:  [linkedin.com/in/kevinkietle/\
+![📊](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZUBcrPflFnnWMh1yg3rEP1vRy2ddsM1hocq12uRfm-9kNDmveM5X2HBJBPawwbKhspH8E8Hkah_JhPqpT-YEmzxeJaLJIk2Ibn_7TuzwQdB3ZHzgBg5FkD6fVWgfFwnMcCL-F?key=WPuBJTkq44Y4mBjkSZAcUQ)](https://www.linkedin.com/in/kevinkietle/)  Portfolio:  [kevinkietle.github.io/Bootstrap-Website-Portfolio/](https://kevinkietle.github.io/Bootstrap-Website-Portfolio/)
