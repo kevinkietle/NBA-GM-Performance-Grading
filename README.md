@@ -65,6 +65,8 @@ Notably, Sam Presti (OKC Thunder) ranked as the top-performing GM during this pe
 
 For questions or further discussion, feel free to reach out:
 
-![📩](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLJJ8672q8J1oM_8IQ39zVA-TDsMr1Udjua1J_Rw0hRMLHYh6K4vbd2VrbkH-a8Ptz1bWsJIv1aAm_tMFtJWUannauAB5VSgKbJ31mx6o5HhYrRDp2yKyH7jP4jK2USapsEA5RTw?key=WPuBJTkq44Y4mBjkSZAcUQ)  Email: kevinkietle@gmail.com\
-![🔗](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_f6w_fHVuZhslvce_gFtqig19xQQ4g4Vqw78_VUUUdVm-vHJHWw1yoegTaFF8d508CEIsFTaOtNH_F3SkX-uWD2z2m_YtgPlkgCEwlcwbgEaJfTY8rmINnUBy_b2iIEeT-43Hvg?key=WPuBJTkq44Y4mBjkSZAcUQ)  LinkedIn:  [linkedin.com/in/kevinkietle/\
-![📊](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZUBcrPflFnnWMh1yg3rEP1vRy2ddsM1hocq12uRfm-9kNDmveM5X2HBJBPawwbKhspH8E8Hkah_JhPqpT-YEmzxeJaLJIk2Ibn_7TuzwQdB3ZHzgBg5FkD6fVWgfFwnMcCL-F?key=WPuBJTkq44Y4mBjkSZAcUQ)](https://www.linkedin.com/in/kevinkietle/)  Portfolio:  [kevinkietle.github.io/Bootstrap-Website-Portfolio/](https://kevinkietle.github.io/Bootstrap-Website-Portfolio/)
+Email - <kevinkietle@gmail.com>
+
+LinkedIn - <https://www.linkedin.com/in/kevinkietle/>
+
+Website - <https://kevinkietle.github.io/Bootstrap-Website-Portfolio/>
