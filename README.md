@@ -5,7 +5,7 @@ A full project memo can be found [HERE](https://docs.google.com/document/d/1Obkl
 
 This project evaluates NBA GM performance from 2022 to 2024, focusing on signings, trades, and draft picks. The timeframe is limited to ensure relevance, as many GMs were not with their current teams before 2022. Each category is graded individually, with scores combined into a holistic GM performance rating.
 
-The analysis demonstrates key technical skills, including data scraping with Beautiful Soup, data cleaning, linear regression modeling with Scikit-Learn, and expected win share projections by draft slot.
+The analysis demonstrates key technical skills, including data scraping via the Synergy Sports API by leveraging cURL requests from the NBA website, data cleaning, linear regression modeling with Scikit-Learn, and expected win share projections by draft slot.
 
 ### Project Structure
 
